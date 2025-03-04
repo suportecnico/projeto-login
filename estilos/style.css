@@ -86,9 +86,9 @@ div.campo > label {
 div.campo > span {
     color: white;
     /* background-color: black; */
-    font-size: 1.99em;
+    font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 1px;
 
 }
 
@@ -101,7 +101,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px); 
+    transform: translateY(-10px); 
       /* transform: translatey - move o elemento para cima e para baixo na tela, já o  transform: translatex - move o elemento horizontalmente */
 }
 
