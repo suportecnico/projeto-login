@@ -31,8 +31,6 @@ section#login {/* para colocar essa div no meio da tela é preciso usar o positi
     position: absolute;
     left: 50%;
     top: 50%;
-    /* agora para centralizar, temos que fazer uma translação.  */
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
     height: 500px;
@@ -41,6 +39,8 @@ section#login {/* para colocar essa div no meio da tela é preciso usar o positi
     overflow: hidden;
     /* para fazer uma sombra na section: */
     box-shadow: 0px 0px 10px black;
+    /* agora para centralizar, temos que fazer uma translação.  */
+    transform: translate(-50%, -50%);
 
 }
 
@@ -94,12 +94,12 @@ div.campo > input {
     /* font-size: 0.93em; */
     width: calc(100% - 45px);
     /* É um atributo que faz calculos para encaixar elementos dentro das CSS */
-    transform: translateY(-13px); 
-      /* transform: translatey - move o elemento para cima e para baixo na tela, já o  transform: translatex - move o elemento horizontalmente */
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px); 
+      /* transform: translatey - move o elemento para cima e para baixo na tela, já o  transform: translatex - move o elemento horizontalmente */
 }
 
 div.campo > input:focus-within {
