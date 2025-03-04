@@ -27,10 +27,7 @@ main { /* para poder centralizar, usa-se a posição relativa. */
     width: 100vw;
 }
 
-section#login {/* para colocar essa div no meio da tela é preciso usar o position absolut; 50% para esquerda e 50% para baixo */
-    position: absolute;
-    left: 50%;
-    top: 50%;
+section#login {
     background-color: white;
     width: 250px;
     height: 500px;
@@ -39,8 +36,13 @@ section#login {/* para colocar essa div no meio da tela é preciso usar o positi
     overflow: hidden;
     /* para fazer uma sombra na section: */
     box-shadow: 0px 0px 10px black;
+    /* para colocar essa div no meio da tela é preciso usar o position absolut; 50% para esquerda e 50% para baixo */
+    position: absolute;
+    left: 50%;
+    top: 50%;
     /* agora para centralizar, temos que fazer uma translação.  */
     transform: translate(-50%, -50%);
+
 
 }
 
