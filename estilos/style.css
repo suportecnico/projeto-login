@@ -91,7 +91,7 @@ div.campo > span {
 
 div.campo > input {
     background-color: #74d4d1;
-    font-size: 0.93em;
+    /* font-size: 0.93em; */
     width: calc(100% - 45px);
     /* É um atributo que faz calculos para encaixar elementos dentro das CSS */
     transform: translateY(-13px); 
