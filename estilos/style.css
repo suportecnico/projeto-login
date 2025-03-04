@@ -85,7 +85,7 @@ div.campo > label {
 
 div.campo > span {
     color: white;
-    background-color: black;
+    /* background-color: black; */
     font-size: 1.99em;
     width: 40px;
     padding: 5px;
