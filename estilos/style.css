@@ -98,7 +98,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px); 
+    transform: translateY(-13px); 
       /* transform: translatey - move o elemento para cima e para baixo na tela, já o  transform: translatex - move o elemento horizontalmente */
 }
 
